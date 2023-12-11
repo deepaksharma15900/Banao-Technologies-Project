@@ -1,0 +1,258 @@
+@media (max-width:600px) {
+  /* header img,input,p,select{
+    display: none;
+  }
+  header{
+    width: 100%;
+    height: 24px;
+    background-image: url(images/shapes.png);
+  }
+  main{
+    display: none;
+  }
+  #image1{
+    position: absolute;
+    top: 24px;
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  } */
+  header {
+    height: 100px; 
+    width: 100%;
+  }
+  header img {
+    width: auto; 
+    height: auto; 
+    top: 12px; 
+    left: 50%; 
+    transform: translateX(-50%);
+  }
+
+  header input {
+    width: calc(100% - 40px); 
+    max-width: 300px; 
+    height: 36px; 
+    top: 50px; 
+    left: 50%;
+    transform: translateX(-50%);
+    padding-left: 45px; 
+    font-size: 12px; 
+  }
+
+  #vector {
+    width: 12px; 
+    height: 12px; 
+    top: 10px; 
+    left: 50%; 
+    transform: translateX(-50%);
+  }
+
+  header p {
+    width: auto; 
+    height: auto; 
+    top: 10px; 
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center; 
+    font-size: 14px; 
+  }
+
+  header select {
+    display: none;
+  }
+
+  #image1 {
+    height: 300px; 
+    top: 0; 
+  }
+
+  #image1 h1,
+  #image1 h4 {
+    width: 90%; /* Adjusted width for better responsiveness */
+    top: 50%; /* Center vertically */
+    left: 50%; /* Center horizontally */
+    transform: translate(-50%, -50%);
+    text-align: center; /* Center-align the text */
+    font-size: 24px; /* Adjusted font size for mobile screens */
+  }
+
+  .links {
+    width: 90%; /* Adjusted width for smaller screens */
+    max-width: 400px; /* Maximum width for better mobile display */
+    top: 420px; /* Adjusted position from the top */
+    left: 50%; /* Center horizontally */
+    transform: translateX(-50%);
+    flex-direction: column; /* Stack elements vertically on mobile */
+    height: auto; /* Allow height to adjust based on content */
+    padding: 15px 0; /* Adjust padding for better spacing */
+  }
+
+  #left-centric {
+    margin-bottom: 15px; /* Add space between elements on mobile */
+    justify-content: center; /* Center align items horizontally */
+  }
+
+  .right-centric button {
+    margin: 5px 0; /* Adjust margins for buttons on mobile */
+    width: 100%; /* Make buttons fill the width */
+  }
+
+  #Join {
+    width: 100%; /* Make Join button fill the width */
+    margin-top: 10px; /* Add some top margin for spacing */
+  }
+
+  .right-centric select {
+    width: 100%; /* Make select fill the width */
+    margin-top: 10px; /* Add some top margin for spacing */
+  }
+
+  .container {
+    width: 90%; /* Adjusted width for smaller screens */
+    margin: 20px auto; /* Center the container and provide spacing */
+    top: 300px; /* Adjusted position from the top */
+    margin-left: auto; /* Center the container horizontally */
+    margin-right: auto; /* Center the container horizontally */
+    left: 0;
+    right: 0;
+    height: auto; /* Allow height to adjust based on content */
+  }
+
+  #box1 {
+    height: 150px; /* Adjusted height for smaller screens */
+  }
+
+  #box2 {
+    height: auto; /* Allow height to adjust based on content */
+    padding: 10px; /* Adjusted padding for better spacing on mobile */
+    text-align: center; /* Center-align content on mobile */
+  }
+
+  #box2 img {
+    position: relative; /* Change position to relative for mobile */
+    left: auto; /* Reset left position */
+    top: auto; /* Reset top position */
+    margin-right: 10px; /* Add right margin for spacing */
+  }
+
+  #box3 {
+    height: auto; /* Allow height to adjust based on content */
+    padding: 10px; /* Adjusted padding for better spacing on mobile */
+    text-align: center; /* Center-align content on mobile */
+    flex-direction: column; /* Stack elements vertically on mobile */
+  }
+
+  #box3 p {
+    margin: 10px; /* Adjusted margin for mobile */
+    font-size: 20px; /* Adjusted font size for mobile screens */
+    width: auto; /* Allow width to adjust based on content */
+  }
+
+  #box3 i {
+    position: relative; /* Change position to relative for mobile */
+    top: auto; /* Reset top position */
+    left: auto; /* Reset left position */
+  }
+
+  #box4 {
+    height: auto; /* Allow height to adjust based on content */
+    padding: 10px; /* Adjusted padding for better spacing on mobile */
+    text-align: center; /* Center-align content on mobile */
+    flex-direction: column; /* Stack elements vertically on mobile */
+  }
+
+  #box4 p {
+    margin: 5px; /* Adjusted margin for mobile */
+    font-size: 16px; /* Adjusted font size for mobile screens */
+  }
+
+  #box5 {
+    height: auto; /* Allow height to adjust based on content */
+    padding: 10px; /* Adjusted padding for better spacing on mobile */
+    text-align: center; /* Center-align content on mobile */
+    flex-direction: column; /* Stack elements vertically on mobile */
+  }
+
+  #box5 > * {
+    position: static; /* Reset positions for mobile */
+    left: auto; /* Reset left positioning */
+    font-size: 16px; /* Adjusted font size for mobile screens */
+    margin: 5px; /* Adjusted margin for mobile */
+  }
+
+  #container2 {
+    position: relative; /* Change to relative positioning for mobile */
+    top: auto; /* Reset top positioning */
+    margin-top: 20px; /* Add margin for spacing on mobile */
+  }
+
+  #container3 {
+    position: relative; /* Change to relative positioning for mobile */
+    top: auto; /* Reset top positioning */
+    height: auto; /* Allow height to adjust based on content */
+    margin-top: 20px; /* Add margin for spacing on mobile */
+  }
+
+  #extrabox1 {
+    height: auto; /* Allow height to adjust based on content */
+    padding: 10px; /* Adjusted padding for better spacing on mobile */
+    text-align: center; /* Center-align content on mobile */
+    flex-direction: column; /* Stack elements vertically on mobile */
+  }
+
+  #extrabox1 > * {
+    position: relative; /* Reset positions for mobile */
+    left: auto; /* Reset left positioning */
+    margin-bottom: 5px; /* Add bottom margin for spacing on mobile */
+  }
+
+  #extrabox2 {
+    height: auto; /* Allow height to adjust based on content */
+    padding: 10px; /* Adjusted padding for better spacing on mobile */
+    text-align: center; /* Center-align content on mobile */
+    flex-direction: column; /* Stack elements vertically on mobile */
+    margin: 10px 0; /* Adjust margin for better spacing on mobile */
+    border: none; /* Remove border on mobile for better visual */
+    border-radius: 0; /* Remove border radius on mobile */
+  }
+
+  #container3 #box5 {
+    height: auto; /* Allow height to adjust based on content */
+    padding: 10px; /* Adjusted padding for better spacing on mobile */
+    text-align: center; /* Center-align content on mobile */
+  }
+
+  #container4 {
+    position: relative; /* Change to relative positioning for mobile */
+    top: auto; /* Reset top positioning */
+    height: auto; /* Allow height to adjust based on content */
+    margin-top: 20px; /* Add margin for spacing on mobile */
+  }
+
+  #box {
+    position: relative; /* Change to relative positioning for mobile */
+    top: auto; /* Reset top positioning */
+    left: auto; /* Reset left positioning */
+    width: 100%; /* Adjust width to fit the mobile screen */
+    height: auto; /* Allow height to adjust based on content */
+    margin-top: 20px; /* Add margin for spacing on mobile */
+  }
+
+  #address {
+    height: auto; /* Allow height to adjust based on content */
+    padding: 10px; /* Adjusted padding for better spacing on mobile */
+    text-align: center; /* Center-align content on mobile */
+    flex-direction: column; /* Stack elements vertically on mobile */
+    border-bottom: none; /* Remove border bottom on mobile for better visual */
+  }
+
+  #address input {
+    position: relative; /* Reset position for mobile */
+    left: auto; /* Reset left positioning */
+    margin-top: 10px; /* Add margin for spacing on mobile */
+  }
+
+  
+
+}

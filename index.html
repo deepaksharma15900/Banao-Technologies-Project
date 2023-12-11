@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Banao Technologies Website</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&family=Poppins:wght@100&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@3.6.0/fonts/remixicon.css" rel="stylesheet">
+  <link rel="stylesheet" href="Responsive.css">
+</head>
+<body>
+  <header>
+    <img src="images/logo.png" alt="Logo image">
+    <input placeholder="Search your favourite groups in ATG " type="text" value>
+    <div id="vector">
+      <img src="images/Vector.png" alt="">
+    </div>
+    <!-- <p>Create account. <span>It’s free!</span></p>
+    <select id="arrow" >
+      <option value="special"><li> </li></option>
+      <option>Account</option>
+      <option>Login</option>
+      <button>sign up</button>
+    </select> -->
+    <div class="dropdown">
+      <button onclick="toggleDropdown()" class="dropbtn">Create account.<span> It’s free!</span> <i class="ri-arrow-drop-down-fill"></i> </button>
+      <div id="myDropdown" class="dropdown-content">
+          <a href="#">Accounts</a>
+          <a href="#" onclick="display()" >Login
+          <a href="#" onclick="display2()">Sign In</a>
+      </div>
+  </div>
+  
+  </header>
+  <main>
+    <div id="image1">
+      <h1>Computer Engineering</h1>
+      <h4>142,765 Computer Engineers follow this</h4>
+      <img src="https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+    </div>
+    <div class="links">
+     <div id="left-centric">
+      <p>All Posts(32)</p>
+      <p>Article</p>
+      <p>Event</p>
+      <p>Education</p>
+      <p>Job</p>
+      </div>
+      <div class="right-centric">
+        <button id="Post">Write a Post
+           <select></select></button>
+        <button id="Join"><i class="ri-user-add-fill"></i> Join Group</button>
+      </div>
+    </div>
+    <div class="container">
+      <div id="box1"><img src="images/article1.png" alt=""></div>
+      <div id="box2"><img src="images/ArticleIimg.png" alt=""></div>
+      <div id="box3"><p>What if famous brands had regular fonts? Meet RegulaBrands!<i class="ri-more-line"></i></p></div>
+      <div id="box4"><p>I’ve worked in UX for the better part of a decade. F..</p></div>
+      <div id="box5">
+        <img id="person" src="images/personImage.png" alt="">
+        <h3 id="name">Sarthak Kamra</h3>
+        <i id="eye" class="ri-eye-fill"></i>
+        <p id="view"> 1.4k views</p>
+        <i id="share" class="ri-share-fill"></i>
+      </div>
+    </div>
+
+    <div id="container2" class="container">
+      <div id="box1"><img src="images/image2.png" alt=""></div>
+      <div id="box2"><img src="images/Education.png" alt=""></div>
+      <div id="box3"><p>What if famous brands had regular fonts? Meet RegulaBrands!<i class="ri-more-line"></i></p></div>
+      <div id="box4"><p>I’ve worked in UX for the better part of a decade. F..</p></div>
+      <div id="box5">
+        <img id="person" src="images/personImage2.png" alt="">
+        <h3 id="name">Sarthak Kamra</h3>
+        <i id="eye" class="ri-eye-fill"></i>
+        <p id="view"> 1.4k views</p>
+        <i id="share" class="ri-share-fill"></i>
+      </div>
+    </div>
+
+    <div id="container3" class="container">
+      <div id="box1"><img src="images/car.png" alt=""></div>
+      <div id="box2"><img src="images/MeetupDesk.png" alt=""></div>
+      <div id="box3"><p>What if famous brands had regular fonts? Meet RegulaBrands!<i class="ri-more-line"></i></p></div>
+      <div id="box4"><p>I’ve worked in UX for the better part of a decade. F..</p></div>
+      <div id="extrabox1">
+        <img  id="calender" src="images/calender.png" alt="">
+        <p id="date">Fri,12 Oct,2018</p>
+        <img id="location" src="images/location.png" alt="">
+        <p id="place">Ahmedabad, India</p>
+      </div>
+      <div id="extrabox2">Visit Website</div>
+      <div id="box5">
+        <img id="person" src="images/Rectangle 3 (1).png" alt="">
+        <h3 id="name">Sarthak Kamra</h3>
+        <i id="eye" class="ri-eye-fill"></i>
+        <p id="view"> 1.4k views</p>
+        <i id="share" class="ri-share-fill"></i>
+      </div>
+    </div>
+
+    <div id="container4" class="container">
+      <div id="box1"><img src="images/image2.png" alt=""></div>
+      <div id="box2"><img src="images/Jobdesk (1).png" alt=""></div>
+      <div id="box3"><p>What if famous brands had regular fonts? Meet RegulaBrands!</p></div>
+      <div id="box4"><p>I’ve worked in UX for the better part of a decade. F..</p></div>
+      <div id="extrabox1">
+        <img  id="calender" src="images/calender.png" alt="">
+        <p id="date">Fri,12 Oct,2018</p>
+        <img id="location" src="images/location.png" alt="">
+        <p id="place">Ahmedabad, India</p>
+      </div>
+      <div id="extrabox2">Visit Website</div>
+      <div id="box5">
+        <img id="person" src="images/Rectangle 3 (2).png" alt="">
+        <h3 id="name">Sarthak Kamra</h3>
+        <i id="eye" class="ri-eye-fill"></i>
+        <p id="view"> 1.4k views</p>
+        <i id="share" class="ri-share-fill"></i>
+      </div>
+    </div>
+
+    <div id="box">
+      <div id="address">
+        <img src="images/location (1).png" alt="">
+        <input type="text" placeholder="Noida, India">
+        <img id="edit" src="images/edit.png" alt="">
+      </div>
+      <div id="info">
+        <img src="images/!.png" alt="">
+        <p>Your location will help us serve better and extend a personalised experience.</p>
+      </div>
+    </div>
+   
+    <div class="popup">
+      <div id="head"><p>Let's learn, share & inspire each other with our passion for computer engineering. Sign up now 🤘🏼</p></div>
+      <div class="boxer"><h1>Sign In</h1><p>Don’t have an account yet?<span> Create new for free!</span></p></div>
+      <div class="credits">
+        <input type="email" placeholder="Email">
+        <input type="password" placeholder="Password">
+      </div>
+      <div class="Signin">
+        <button>Sign In</button>
+      </div>
+      <div class="fang">
+        <img src="images/face-book.png" alt="">
+        <p>Sign up with Facebook</p>
+      </div>
+      <div class="fang">
+        <img src="images/Google.png" alt="">
+        <p>Sign up with Google</p>
+      </div>
+      <p id="Forgot">Forgot Password?</p>
+      <img id="sign" src="images/siginIn.png" alt="">
+      <img onclick="invisible()" id="cancel" src="images/cancel.png" alt="">
+    </div>
+
+    <div class="popup2">
+      <div id="head"><p>Let's learn, share & inspire each other with our passion for computer engineering. Sign up now 🤘🏼</p></div>
+      <div class="boxer2"><h1>Create Account</h1><p class="special2">Already have an account?<span> Sign In</span></p></div>
+      <div class="credits2">
+       <div id="insides"> <input type="Name" placeholder="First Name"> <input type="Name" placeholder="Last Name"></div>
+        <input type="Email" placeholder="Email">
+        <input type="password" placeholder="Password">
+        <input type="password" placeholder="password">
+      </div>
+      <div class="Signin2">
+        <button>Sign In</button>
+      </div>
+      <div class="fang2">
+        <img src="images/face-book.png" alt="">
+        <p>Sign up with Facebook</p>
+      </div>
+      <div class="fang2">
+        <img src="images/Google.png" alt="">
+        <p>Sign up with Google</p>
+      </div>
+      <img id="sign2" src="images/siginIn.png" alt="">
+      <img onclick="invisible2()" id="cancel2" src="images/cancel.png" alt="">
+      <p id="last">By signing up, you agree to our Terms & conditions, Privacy policy</p>
+    </div>
+    
+  </main>
+  <script src="script.js"></script> 
+</body>
+</html>
